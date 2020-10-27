@@ -197,141 +197,91 @@ Thamires Marcondes</b>
 
 <div id="main">
 
-{block:Posts}
+
 <div class="caixa">
 <!-- TEXTOS -->
-{block:Title}
 <div class="h1"><a href="{Permalink}">{Title}</a></div>
-{Body}
-
-{/block:Title}
 
 <!-- FOTO -->
 
-{block:Photo}
 <div class="caixa">
-{LinkOpenTag}<img src="{PhotoURL-500}">{LinkCloseTag}
-{block:IndexPage}
-
-{block:NoteCount}<div class="notas">
-<a href="{Permalink}">{NoteCount}</a>
-</div>{/block:NoteCount}
-{/block:IndexPage}
-{block:Caption}{Caption}{/block:Caption}
+<div class="notas">
+<a href="{Permalink}"></a>
 </div>
-{/block:Photo}
+</div>
 
 <!-- PHOTOSET -->
-{block:Photoset}
-<center>{Photoset-500}</center>
-{block:Caption} {Caption} {/block:Caption}
-{/block:Photoset}
+<center></center>
 
 <!-- QUOTE -->
 {block:Quote}   
 <div class="caixa">    
 <div class="quotem">
-<div class="quote">{Quote}</div>  
+<div class="quote"></div>  
 </div> 
 <div class="bottomq"></div>
-<div class="ci">{block:Source}
-<div class="source">{Source}</div>
-{/block:Source}</div> 
+<div class="ci">
+<div class="source"></div>
+</div> 
 </div>        
-{/block:Quote}
+
 
 <!-- LINK -->
-{block:Link}
-<a href="{URL}" {Target}>{Name}</a>
-{block:Description} {Description}{/block:Description}
-{/block:Link}
+<a href="{URL}" {Target}></a>
+
 
 <!-- CHAT -->
-{block:Chat}
-{block:Title}<a href="{Permalink}">{Title}</a>{/block:Title}
-{block:Lines}
+<a href="{Permalink}"></a>
+
 <div class="chat">
-<div class="lines">{block:Label}
-<span>{Label}</span>
-{/block:Label} 
-{Line}</div></div>
-{/block:Lines}
-{block:Chat}
+<div class="lines">
+<span></span>
+</div></div>
+
 
 <!-- VIDEO -->
-{block:Video}
-{Video-500}
-{block:Caption}{Caption}{/block:Caption}
-{/block:Video}
 
 <!-- AUDIO -->
-{block:Audio}
 <div class="caixa">
-<div class="trackid2">{AudioPlayerGrey}</div>
+<div class="trackid2"></div>
 <div class="boxmusica">
-<div class="album">{block:AlbumArt}
-<img src="{AlbumArtURL}" class="album"width="95" >
-{/block:AlbumArt}</div> 
-{block:TrackName}<div class="trackid">
-<c>Faixa:</c> {TrackName}</div>{/block:TrackName}
-{block:Artist} <div class="trackid"><c>Artista:</c> {Artist}</div>{/block:Artist}
-<div class="trackid"><c>Executado:</c> ({PlayCount}) Vezes</div>
+<div class="album">
+</div> 
+<div class="trackid">
+<c></c> </div>
+<div class="trackid"><c></c></div>
+<div class="trackid"><c></c></div>
 <div class="clear"></div>
 </div>
 </div>
-{/block:Audio}
 
 <!-- ASKS -->
-{block:Answer}
 <div class="caixa">
-<img src="{AskerPortraitURL-64}" align="left" class="askfoto">
 <div class="pergunta">
-<div class="perguntou"><g>{Asker}</g> asked  {TimeAgo}</div>
-{Question}    
+<div class="perguntou"><g></g></div>  
 </div><br>
-{Answer}
 </div>
-{/block:Answer}
 
 <!-- REBLOG COM FOTO TTHY --> 
 
-{block:RebloggedFrom} 
-<a href="{ReblogParentURL}">
-<b>@</bi>Via:
-<img src="{ReblogParentPortraitURL-30}">
-</a>
-{/block:RebloggedFrom}  
-
-{block:RebloggedFrom} 
-<a href="{ReblogParentURL}">
-<b>@</b>Source:
-<img src="{ReblogRootPortraitURL-30}">
-</a>
-{/block:RebloggedFrom} 
 
 <!-- NOTES DO PERMALINK-->
-{block:PostNotes}
-{NoteCount}
-{/block:PostNotes}
+
 </div>
-<div class="h5"><a href="{Permalink}" class="fundo">{TimeAgo} </a>  △ <a href="{Permalink}" class="fundo">{NoteCount} notes</a> △ <a href="{ReblogURL}" class="fundo" target="_blank"> Reblog </a><br>{block:HasTags}{block:Tags}<a href="{TagURL}"><img src="https://static.tumblr.com/qlfmldj/wOKmcnquv/untitled-2.png"/> {Tag}</a>&nbsp;&nbsp;&nbsp;&nbsp;{/block:Tags}{/block:HasTags}</div>
+<div class="h5"><a href="{Permalink}" class="fundo"></a>  △ <a href="{Permalink}" class="fundo"></a> △ <a href="{ReblogURL}" class="fundo" target="_blank"> </a><br><a href="{TagURL}"><img src="https://static.tumblr.com/qlfmldj/wOKmcnquv/untitled-2.png"/> </a>&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
-{/block:Posts}
 
-{block:IndexPage}  
-<div id="paginacaoml"><span class="info" style="font-weight: normal;">Página <b>{CurrentPage}</b> de <b>{TotalPages}</b></span> {block:Pagination}{block:PreviousPage}<a href="{PreviousPage}">&laquo;</a>{/block:PreviousPage}{/block:Pagination}
-{block:JumpPagination length="10"}
-{block:CurrentPage}<span class="pagina_atual">{PageNumber}</span>{/block:CurrentPage}
-{block:JumpPage}<a class="jump_page" href="{URL}">{PageNumber}</a>{/block:JumpPage}
-{/block:JumpPagination}
-{block:Pagination}{block:NextPage}<a href="{NextPage}">&raquo;</a>{/block:NextPage}{/block:Pagination}
+<div id="paginacaoml"><span class="info" style="font-weight: normal;"><b></b><b></b></span><a href="{PreviousPage}">&laquo;</a>
+<span class="pagina_atual"></span>
+<a class="jump_page" href="{URL}"></a>
+<a href="{NextPage}">&raquo;</a>
 </div></center>
 
-{block:NoteCount}<div class="notas">
-<a href="{Permalink}">{NoteCount}</a>
-</div>{/block:NoteCount}
+<div class="notas">
+<a href="{Permalink}"></a>
+</div>
 
- {/block:IndexPage}
+
 </div>
 
 
