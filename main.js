@@ -15,7 +15,7 @@ function adicionarTexto()
     }
     data = data.toLocaleDateString('pt-br', option)
     var conteudo = document.createElement('div')
-    conteudo.innerHTML = texto + "<br /> Escrito por: " + nome + "<br />"+ data
+    conteudo.innerHTML = texto + "<br /> Escrito por: " + nome + "<br />"+ data + "<br /><br />"
     mydiv.appendChild(conteudo)
     console.log(texto, nome)
     
