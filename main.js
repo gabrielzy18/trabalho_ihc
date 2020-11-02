@@ -9,7 +9,6 @@ function adicionarTexto() {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
     else {
-        console.log(texto.localeCompare(str), aval)
         var nome = document.getElementById('nome').value
         var mydiv = document.getElementById('mydiv')
         var data = new Date()
