@@ -5,11 +5,11 @@ function adicionarTexto() {
     var str = "Digite aqui o seu comentario sobre o candidato"
     var texto = document.getElementById('textbox').value
     var aval = document.getElementById('aval').value
-    console.log(aval)
     if (texto.localeCompare(str) == 0 || aval == "") {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
     else {
+        console.log(texto.localeCompare(str), aval)
         var nome = document.getElementById('nome').value
         var mydiv = document.getElementById('mydiv')
         var data = new Date()
@@ -35,7 +35,6 @@ function adicionarTexto() {
         var media = global_aval_banha / global_aval_banha_cont
         document.getElementById("banha").innerHTML = "<b>Avalição geral</b>: " + media.toFixed(1) +
                                                      "<br /><b>Total de avaliações</b>: " + global_aval_banha_cont
-
     }
 }
 
