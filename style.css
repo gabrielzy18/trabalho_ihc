@@ -245,6 +245,16 @@
 
         /* Gabs */
 
-        .checked {
-            color: orange;
-          }
+        /*Thami*/
+
+        @media (max-width: 768px){
+            .candidatosfotinho{
+                width: 100px;
+                height: 100px;
+            }
+
+            #ultima-foto{
+                margin-left: 18.5px;
+            }
+
+        }
