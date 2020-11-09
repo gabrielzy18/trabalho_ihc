@@ -4,7 +4,6 @@ var global_aval_banha_cont = 0;
 function adicionarTexto() {
     var texto = document.getElementById('textbox').value
     var aval = document.getElementById('aval').value
-    document.getElementById('textbox').placeholder = "Digite aqui o seu comentario sobre o candidato"
     if (texto.localeCompare("") == 0 || aval == "") {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
