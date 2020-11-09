@@ -2,10 +2,10 @@ var global_aval_banha = 0;
 var global_aval_banha_cont = 0;
 
 function adicionarTexto() {
-    var str = "Digite aqui o seu comentario sobre o candidato"
     var texto = document.getElementById('textbox').value
     var aval = document.getElementById('aval').value
-    if (texto.localeCompare(str) == 0 || aval == "") {
+    document.getElementById('textbox').placeholder = "Digite aqui o seu comentario sobre o candidato"
+    if (texto.localeCompare("") == 0 || aval == "") {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
     else {
