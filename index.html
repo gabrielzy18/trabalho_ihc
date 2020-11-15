@@ -272,13 +272,13 @@
         </div>
     </div>
 
-    <div id="Bayard" style="display:none">
-        <div class="caixa">
-            <img src="https://static.tumblr.com/ypvonop/KtKqiql5f/bayardf.png"
+    <div id="Banha" style="display:none">
+        <div class="caixa" id="texto">
+            <img src="https://static.tumblr.com/ypvonop/yivqiqkrt/banhaf.png"
                 style="margin-top: 0px; margin-bottom: 10px; width: 480px">
 
-            Bayard
-            
+            BANHA
+            <p id="banha"><b>Avaliação geral</b>: Nenhuma registrada!</p>
             <div id="accordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -334,7 +334,31 @@
                 </div>
             </div>
         </div>
-            
+
+            <br />
+            <br />
+            <h1 style="text-align:center;">Comentarios</h1>
+            <br />
+            <br />
+            <div id="recebe_comentarios"></div>
+            <form id="form1">
+                Nome: <input type="text" id="nome">
+                <input type="button" value="Submeter" onclick="adicionarTexto()">
+            </form>
+            <br>
+            <textarea id="textbox" rows="6" cols="50"
+                placeholder="Digite aqui o seu comentario sobre o candidato"></textarea>
+            <br />
+            <label id="label_aval">Avaliação do candidato:</label>
+            <select id="aval">
+                <option value="" selected disabled hidden></option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
         </div>
     </div>
 
