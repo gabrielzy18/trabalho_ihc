@@ -9,7 +9,7 @@ function adicionarTexto() {
     }
     else {
         var nome = document.getElementById('nome').value
-        var mydiv = document.getElementById('mydiv')
+        var recebe_comentarios = document.getElementById('recebe_comentarios')
         var data = new Date()
         const option = {
             year: 'numeric',
@@ -27,7 +27,8 @@ function adicionarTexto() {
         var conteudo = document.createElement('div')
         conteudo.innerHTML = "<b> Comentario</b>: " + texto + "<br /> <b>Escrito por</b>: " + nome + "<br />" +
                              "<b>Avaliação do usuário</b>: " + aval + "<br />" + data + "<br /><br />"
-        mydiv.appendChild(conteudo)
+        conteudo.style = "margin-left: 5%;"
+        recebe_comentarios.appendChild(conteudo)
         global_aval_banha += parseInt(aval)
         global_aval_banha_cont++
         var media = global_aval_banha / global_aval_banha_cont
