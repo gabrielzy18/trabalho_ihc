@@ -200,49 +200,6 @@
             -webkit-transform: rotate(360deg);
         }
 
-        /*** Menu do header ***/
-
-        #menurtr {
-            margin-left: 100px;
-            top: 335px;
-            position: relative;
-            display: inline;
-        }
-
-        /* Gabs */
-
-        .menurtr {
-            width: auto;
-            auto;
-            overflow: hidden;
-            position: relative;
-            background-color: #;
-            font-family: 'Oswald', sans-serif;
-            font-size: 24pt;
-            color: #eff4fb;
-            text-decoration: none;
-            text-shadow: 2px 1px 3px #d1cabe;
-            padding: 14px;
-        }
-
-        /* Gabs */
-
-        .menurtr:hover {
-            color: #385379;
-            text-decoration: none;
-            padding: 0px 0px 0px 55px;
-            letter-spacing: 2px;
-            opacity: 0.4;
-            font-size: 10pt;
-            -webkit-transition: all 0.5s ease-out;
-            /* Gabs */
-            /* Opera */
-            -o-transition: all 0.5s ease-out;
-            /* Gabs */
-            /* Firefox */
-            -moz-transition: all 0.5s ease-out;
-        }
-
         /* Gabs */
 
         /*Thami*/
