@@ -218,6 +218,24 @@
 
         /* Gabe */
 
-        #textbox, #form1, #label_aval {
+        #form1, #form2, #form3, #form4, #form5, #form6,
+         #form7, #form8, #form9, #form10, #form11, #form12, #form13,
+          #form14, #form15, #form16 {
             margin-left: 5%;
         }
+
+
+        #textbox1, #textbox2, #textbox3, #textbox4, #textbox5,
+         #textbox6, #textbox7, #textbox8, #textbox9, #textbox10,
+          #textbox11, #textbox12, #textbox13, #textbox14, #textbox15,
+           #textbox16 {
+            margin-left: 5%;
+        }
+        
+        #label_aval1, #label_aval2, #label_aval3, #label_aval4, #label_aval5,
+          #label_aval6, #label_aval7, #label_aval8, #label_aval9, #label_aval10,
+          #label_aval11, #label_aval12, #label_aval13, #label_aval14, #label_aval15,
+          #label_aval16 {
+            margin-left: 5%;
+        }
+        
