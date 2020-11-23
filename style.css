@@ -15,28 +15,28 @@
 
         #content {
             width: 913px;
-            background: url('https://static.tumblr.com/ypvonop/GfCqiqfrc/content2.png');
+            background-color: #f7f3ec;
             margin: auto;
         }
 
         /* - h e a d e r - */
 
         #header {
-            background: url('https://static.tumblr.com/ypvonop/yJnqiqfrq/header2.png');
+            background: url('https://static.tumblr.com/ypvonop/uBbqk9soy/header.png');
             background-repeat: no-repeat;
-            width: 913px;
-            height: 417px;
+            width: 888px;
+            height: 637px;
             margin-left: auto 0px;
         }
 
         /* - f o o t e r - */
 
         #footer {
-            background: url('https://static.tumblr.com/ypvonop/VJNqiqfry/footer2.png');
+            background: url('https://static.tumblr.com/ypvonop/IFiqk9spk/footer.png');
             background-repeat: no-repeat;
             background-position: bottom;
-            width: 913px;
-            height: 83px;
+            width: 888px;
+            height: 76px;
             clear: both;
         }
 
@@ -55,7 +55,7 @@
         /* - p o s t a g e n s - */
 
         #main {
-            background: #transparent;
+            background: #f7f3ec;
             width: 500px;
             float: right;
             position: relative;
@@ -73,7 +73,7 @@
         /* --- POSTAGEM  --- */
 
         #main {
-            width: 500px;
+            width: 565px;
             float: right;
             position: relative;
             margin-right: 65px;
@@ -88,9 +88,12 @@
             color: #594432;
             text-align: justify;
             outline: 0px solid #;
-            margin-top: 0px;
+            margin-top: 6px;
             margin-bottom: 10px;
             margin-left: 10px;
+            border-width: 2px;
+            border-color: #7090b6;
+            border-style: solid;
             -moz-border-radius: 3px;
             -webkit-border-radius: 3px;
         }
@@ -98,22 +101,24 @@
         /* --- SIDEBAR  --- */
 
         #sidebar {
-            width: 240px;
+            width: 264px;
             float: left;
-            margin-top: 16px;
             position: relative;
-            margin-top: -35px;
-            margin-left: 63px;
+            margin-top: 16px;
+            margin-left: 2px;
         }
 
         .side {
-            background: #transparent;
+            background: #f2f3f6;
             padding: 7px;
             text-align: justify;
             color: #594432;
             margin-bottom: 5px;
             margin-top: 30px;
-            margin-left: 10px;
+            margin-left: 24px;
+            border-width: 2px;
+            border-color: #7090b6;
+            border-style: solid;
             -moz-border-radius: 2px;
             -webkit-border-radius: 2px;
         }
@@ -204,59 +209,38 @@
 
         /*Thami*/
 
-        @media (max-width: 768px) {
-            .candidatosfotinho {
+        @media (max-width: 768px){
+            .candidatosfotinho{
                 width: 100px;
                 height: 100px;
             }
-            #ultima-foto {
+
+            #ultima-foto{
                 margin-left: 18.5px;
             }
-            #texto img {
-                display: none;
-            }
-            .font-nome {
-                font-family: 'Architects Daughter', cursive;
-                display: block;
-                color: black;
-                font-size: 250%;
-            }
-            #sidebar :nth-child(4) {
-                display: none;
-            }
-            #sidebar :nth-child(5) {
-                font-family: 'Architects Daughter', cursive;
-                display: block;
-                font-size: 250%;
-            }
-            #sidebar :nth-child(12) {
-                display: none;
-            }
-            #sidebar :nth-child(13) {
-                font-family: 'Architects Daughter', cursive;
-                display: block;
-                font-size: 250%;
-            }
-            #sidebar :nth-child(35) {
-                display: none;
-            }
-            #sidebar :nth-child(38) {
-                font-family: 'Architects Daughter', cursive;
-                display: block;
-                font-size: 175%;
-            }
+
         }
 
         /* Gabe */
 
-        #form1, #form2, #form3, #form4, #form5, #form6, #form7, #form8, #form9, #form10, #form11, #form12, #form13, #form14, #form15, #form16 {
+        #form1, #form2, #form3, #form4, #form5, #form6,
+         #form7, #form8, #form9, #form10, #form11, #form12, #form13,
+          #form14, #form15, #form16 {
             margin-left: 5%;
         }
 
-        #textbox1, #textbox2, #textbox3, #textbox4, #textbox5, #textbox6, #textbox7, #textbox8, #textbox9, #textbox10, #textbox11, #textbox12, #textbox13, #textbox14, #textbox15, #textbox16 {
-            margin-left: 5%;
-        }
 
-        #label_aval1, #label_aval2, #label_aval3, #label_aval4, #label_aval5, #label_aval6, #label_aval7, #label_aval8, #label_aval9, #label_aval10, #label_aval11, #label_aval12, #label_aval13, #label_aval14, #label_aval15, #label_aval16 {
+        #textbox1, #textbox2, #textbox3, #textbox4, #textbox5,
+         #textbox6, #textbox7, #textbox8, #textbox9, #textbox10,
+          #textbox11, #textbox12, #textbox13, #textbox14, #textbox15,
+           #textbox16 {
             margin-left: 5%;
         }
+        
+        #label_aval1, #label_aval2, #label_aval3, #label_aval4, #label_aval5,
+          #label_aval6, #label_aval7, #label_aval8, #label_aval9, #label_aval10,
+          #label_aval11, #label_aval12, #label_aval13, #label_aval14, #label_aval15,
+          #label_aval16 {
+            margin-left: 5%;
+        }
+        
