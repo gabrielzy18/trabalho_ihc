@@ -43,7 +43,7 @@
         /* - s i d e - */
 
         #sidebar {
-            #transparent;
+        
             width: 250px;
             float: left;
             position: relative;
@@ -87,7 +87,7 @@
             font-size: 13pt;
             color: #594432;
             text-align: justify;
-            outline: 0px solid #;
+            outline: 0px solid ;
             margin-top: 6px;
             margin-bottom: 10px;
             margin-left: 10px;
@@ -127,13 +127,13 @@
 
         ::-moz-selection {
             color: #fff;
-            background: #transparent;
+            background: transparent;
             text-shadow: 0 1px 1px #FFF;
         }
 
         ::selection {
             color: #fff;
-            background: #transparent;
+            background: transparent;
         }
 
         a {
@@ -162,7 +162,7 @@
         }
 
         i {
-            color: #20aaad text-decoration: none;
+            color: #20aaad;text-decoration: none;
             cursor: help;
         }
 
@@ -176,7 +176,7 @@
         /** -- Candidatos -- **/
 
         #candidatos {
-            background: #transparent;
+            background: transparent;
             width: 300px;
             height: 74px;
             margin-top: 50px;
@@ -204,19 +204,50 @@
             /* gabs */
             -webkit-transform: rotate(360deg);
         }
-
-        /* Gabs */
+      
 
         /*Thami*/
-
+       
+        .font-nome{
+            display: none;
+        
+        }
+     
+         .titulo-responsivo{
+             display: none;
+         }
+        
         @media (max-width: 768px){
             .candidatosfotinho{
+                border-radius: 50px;
                 width: 100px;
                 height: 100px;
             }
-
+        
             #ultima-foto{
-                margin-left: 18.5px;
+                margin-left: 36px;
+               
+            }
+            #texto img {
+                display: none;
+            }
+        
+            .font-nome{
+                font-family: 'Architects Daughter', cursive;
+                display: block;
+                color: black;
+                font-size: 250%;
+            }
+        
+      
+           .titulo-responsivo{
+            font-family: 'Architects Daughter', cursive;
+            display: flex;
+            font-size: 205%;
+            }   
+
+            .invisivel{
+                display: none;
             }
 
         }
