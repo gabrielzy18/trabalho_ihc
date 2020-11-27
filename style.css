@@ -1,4 +1,4 @@
-        /* - b o d y - */
+  /* - b o d y - */
 
         body {
             background-color: #f7f3ec;
@@ -235,7 +235,7 @@
             .font-nome{
                 font-family: 'Architects Daughter', cursive;
                 display: block;
-                color: black;
+                color: #e85a32;
                 font-size: 250%;
             }
         
@@ -244,6 +244,7 @@
             font-family: 'Architects Daughter', cursive;
             display: flex;
             font-size: 205%;
+            color: #e85a32;
             }   
 
             .invisivel{
@@ -274,4 +275,3 @@
           #label_aval16 {
             margin-left: 5%;
         }
-        

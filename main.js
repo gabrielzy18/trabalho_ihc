@@ -2,14 +2,14 @@ var global_aval_banha = 0;
 var global_aval_banha_cont = 0;
 
 function adicionarTexto() {
-    var texto = document.getElementById('textbox').value
-    var aval = document.getElementById('aval').value
+    var texto = document.getElementById('textbox2').value
+    var aval = document.getElementById('aval2').value
     if (texto.localeCompare("") == 0 || aval == "") {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
     else {
-        var nome = document.getElementById('nome').value
-        var recebe_comentarios = document.getElementById('recebe_comentarios')
+        var nome = document.getElementById('nome2').value
+        var recebe_comentarios = document.getElementById('recebe_comentarios2')
         var data = new Date()
         const option = {
             year: 'numeric',

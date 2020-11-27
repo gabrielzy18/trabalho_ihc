@@ -1,4 +1,3 @@
-
 $('#resp').click(function() {
   $('#eleicao').slideToggle("fast");
 
