@@ -1,4 +1,4 @@
-  /* - b o d y - */
+        /* - b o d y - */
 
         body {
             background-color: #f7f3ec;
@@ -23,10 +23,9 @@
 
         #header {
             background: url('https://static.tumblr.com/ypvonop/uBbqk9soy/header.png');
+            background-size: 100% 100%;
             background-repeat: no-repeat;
-            width: 888px;
-            height: 637px;
-            margin-left: auto 0px;
+            height: 100vh;
         }
 
         /* - f o o t e r - */
@@ -241,14 +240,21 @@
         
       
            .titulo-responsivo{
-            font-family: 'Architects Daughter', cursive;
-            display: flex;
-            font-size: 205%;
-            color: #e85a32;
+                font-family: 'Architects Daughter', cursive;
+                display: flex;
+                font-size: 205%;
+                color: #e85a32;
             }   
 
             .invisivel{
                 display: none;
+            }
+
+            #header {
+                background: url('https://static.tumblr.com/ypvonop/uBbqk9soy/header.png');
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 100vh;
             }
 
         }
