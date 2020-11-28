@@ -2,14 +2,14 @@ var global_aval_banha = 0;
 var global_aval_banha_cont = 0;
 
 function adicionarTexto() {
-    var texto = document.getElementById('textbox2').value
-    var aval = document.getElementById('aval2').value
+    var texto = document.getElementById('textbox').value
+    var aval = document.getElementById('aval').value
     if (texto.localeCompare("") == 0 || aval == "") {
         alert("Erro! Preencha o comentario e deixe sua avaliação.")
     }
     else {
-        var nome = document.getElementById('nome2').value
-        var recebe_comentarios = document.getElementById('recebe_comentarios2')
+        var nome = document.getElementById('nome').value
+        var recebe_comentarios = document.getElementById('recebe_comentarios')
         var data = new Date()
         const option = {
             year: 'numeric',
@@ -32,7 +32,7 @@ function adicionarTexto() {
         global_aval_banha += parseInt(aval)
         global_aval_banha_cont++
         var media = global_aval_banha / global_aval_banha_cont
-        document.getElementById("banha").innerHTML = "<b>Avaliação geral</b>: " + media.toFixed(1) +
+        document.getElementById("candidato").innerHTML = "<b>Avaliação geral</b>: " + media.toFixed(1) +
                                                      "<br /><b>Total de avaliações</b>: " + global_aval_banha_cont
     }
 }

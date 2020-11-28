@@ -167,7 +167,7 @@
                                     alt="Candidato Tanah Corrêa">
                             </div>
 
-                            <p id="tanah"><strong>Avaliação geral</strong>: Nenhuma
+                            <p id="candidato"><strong>Avaliação geral</strong>: Nenhuma
                                 registrada!</p>
                             <p class="card-text"><strong>Athazanildo
                                     Corrêa</strong> Neto, 80 anos, partido
@@ -309,40 +309,37 @@
                     <br />
                     <br />
 
-                    <div id="recebe_comentarios2"></div>
-
-                    <form id="form2" action="?">
-                        <h6>
-                            <label for="nome2"><i>Nome: </i></label>
-                            <input type="text" id="nome2" name="nome2" />
-                            <input type="button" value="Submeter" onclick="adicionarTexto()" />
-                        </h6>
-                    </form>
-                    <br />
-                    <textarea id="textbox2" rows="6" cols="50"
-                        placeholder="Digite aqui o seu comentario sobre o candidato"></textarea>
-                    <br />
-                    <label id="label_aval2"><i>Avaliação do candidato:</i></label>
-                    <select id="aval2">
-                        <option value="" selected="selected" disabled="disabled"></option>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
+                    <div id="recebe_comentarios"></div>
+                        <form id="form" action="?">
+                            <h6>
+                                <label for="nome"><i>Nome: </i></label>
+                                <input type="text" id="nome" name="nome" />
+                                <input type="button" value="Submeter" onclick="adicionarTexto()" />
+                            </h6>
+                        </form>
+                        <br />
+                        <textarea id="textbox" rows="6" cols="50"
+                            placeholder="Digite aqui o seu comentario sobre o candidato"></textarea>
+                        <br />
+                        <label id="label_aval"><i>Avaliação do candidato:</i></label>
+                        <select id="aval">
+                            <option value="" selected="selected" disabled="disabled"></option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div><br /><br /><br />
                 </div>
-
-                <br /><br /><br />
-            </div>
 
                 <div class="notas">
                 </div>
             
-            <div id="footer">
+                <div id="footer">
+                </div>
             </div>
-        </div>
 
         <script src="menu.js"></script>
 
